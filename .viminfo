@@ -21,13 +21,24 @@
 # Registers:
 
 # File marks:
-'0  2  11  ~/abc2
+'0  2  2  ~/abc4
+'1  2  11  ~/abc2
 
 # Jumplist (newest first):
+-'  2  2  ~/abc4
+-'  1  0  ~/abc4
+-'  2  11  ~/abc2
+-'  1  0  ~/abc2
 -'  2  11  ~/abc2
 -'  1  0  ~/abc2
 
 # History of marks within files (newest to oldest):
+
+> ~/abc4
+	"	2	2
+	^	2	3
+	.	2	2
+	+	2	2
 
 > ~/abc2
 	"	2	11
